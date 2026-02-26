@@ -5,8 +5,9 @@ const ProductGrid = ({ products }) => {
   return (
     <div
       style={{
+        width: "100%", // ✅ ADD THIS
         display: "grid",
-        gridTemplateColumns: "repeat(auto-fit, minmax(220px, 1fr))",
+        gridTemplateColumns: "repeat(auto-fit, minmax(250px, 1fr))",
         gap: "20px",
         padding: "20px",
       }}
