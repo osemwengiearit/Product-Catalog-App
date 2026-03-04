@@ -1,50 +1,57 @@
+import sneakers from "./assets/sneakers.jpg";
+import headphones from "./assets/headphones.jpg";
+import smartwatch from "./assets/smartwatch.jpg";
+import backpack from "./assets/backpack.jpg";
+import sunglasses from "./assets/sunglasses.jpg";
+import laptop from "./assets/laptop.jpg";
+
 const products = [
   {
     id: 1,
-    name: "Sneakers",
+    name: "Running Sneakers",
     price: 79.99,
-    category: "Fashion",
-    image: "https://via.placeholder.com/200",
+    category: "Footwear",
+    image: sneakers,
     featured: true,
   },
   {
     id: 2,
-    name: "Headphones",
-    price: 49.99,
+    name: "Wireless Headphones",
+    price: 129.99,
     category: "Electronics",
-    image: "https://via.placeholder.com/200",
+    image: headphones,
     featured: false,
   },
   {
     id: 3,
     name: "Smart Watch",
-    price: 129.99,
+    price: 199.99,
     category: "Electronics",
-    image: "https://via.placeholder.com/200",
+    image: smartwatch,
     featured: true,
   },
   {
     id: 4,
-    name: "Backpack",
-    price: 39.99,
+    name: "Travel Backpack",
+    price: 49.99,
     category: "Accessories",
-    image: "https://via.placeholder.com/200",
+    image: backpack,
     featured: false,
   },
   {
     id: 5,
-    name: "Sunglasses",
-    price: 19.99,
-    category: "Fashion",
-    image: "https://via.placeholder.com/200",
+    name: "Classic Sunglasses",
+    price: 29.99,
+    category: "Accessories",
+    image: sunglasses,
     featured: false,
   },
   {
     id: 6,
-    name: "Laptop Stand",
-    price: 29.99,
-    category: "Accessories",
-    image: "https://via.placeholder.com/200",
+    name: "Gaming Laptop",
+    price: 999.99,
+    category: "Electronics",
+    image: laptop,
     featured: true,
   },
 ];
