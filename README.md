@@ -69,3 +69,7 @@ Products are defined in `src/products.js` and each object contains:
 npm install
 npm run dev
 ```
+
+## Author
+
+Arit Bright Osemwengie
